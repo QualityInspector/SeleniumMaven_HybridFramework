@@ -15,7 +15,7 @@ public class PO2_HomePage
 		
 	}
 	
-	@FindBy(xpath = "//td[contains(text(),'mngr384522')]") 
+	@FindBy(xpath = "//td[contains(text(),'mngr389366')]") 
 	WebElement managerId;
 	@FindBy(linkText = "Log out") 
 	WebElement logoutBtn;

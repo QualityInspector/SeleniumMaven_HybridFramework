@@ -11,7 +11,9 @@ import settings.TestBase;
 
 public class login_TC01 extends TestBase {
 
-	//   mngr384522   hybAqUq
+	// new login credentials updated
+	
+	//   mngr389366   qErubez
 	
 	WebDriver driver;
 	TestBase base = new TestBase();
@@ -26,8 +28,10 @@ public class login_TC01 extends TestBase {
 	public void loginPositive() throws InterruptedException {
 		PO1_LoginPage loginPage = new PO1_LoginPage(driver);
 
-		loginPage.userIdTextbox("mngr384522");
-		loginPage.passwordTextbox("hybAqUq");
+		
+		
+		loginPage.userIdTextbox("mngr389366");
+		loginPage.passwordTextbox("qErubez");
 		loginPage.loginButton();
 
 		Thread.sleep(5000);
